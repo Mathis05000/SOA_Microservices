@@ -18,7 +18,7 @@ import com.example.opinion.requestBody.HelpedUserOpinionRequestBody;
 
 @RestController
 @RequestMapping("/helpeduseropinion")
-public class HelpedUserController {
+public class HelpedUserOpinionController {
 
     @Autowired
     private HelpedUserOpinionService helpedUserOpinionService;

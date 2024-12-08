@@ -18,7 +18,7 @@ import com.example.opinion.service.VolunteerOpinionService;
 
 @RestController
 @RequestMapping("/volunteeropinion")
-public class VolunteerController {
+public class VolunteerOpinionController {
 
     @Autowired
     private VolunteerOpinionService volunteerOpinionService;
