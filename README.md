@@ -6,4 +6,4 @@ Necessite une base de données postgres avec ces données là :
 - **Nom d'utilisateur** : `user`
 - **Mot de passe** : `password`
 
-ou alors modifier la config dans le fichier application.properties
+ou alors lancer le script start_db.sh qui va pull une image docker postgres et va vous lancer un conteneur avec la bonne configuration. 
